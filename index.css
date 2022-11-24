@@ -14,13 +14,14 @@
 #section-1{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 
 .table {
-  height: 6rem;
+  height: 10rem;
   /* max-width: 150px; */
-  width: 9rem;
+  width: 11rem;
   margin: 0.5rem;
   /* padding: .25rem; */
   border: 2px black solid;
@@ -29,7 +30,7 @@
 }
 .table .table-row {
   /* max-width: min-content; */
-  height: 33%;
+  height: 19%;
   margin-top: auto;
   border-bottom: 1px black solid;
   display: flex;
@@ -55,16 +56,18 @@
 #main-board {
   border: 1px black solid;
   /* position: absolute; */
-  width: 1200px;
+  width: 90vw;
   height: 550px;
   /* height: auto; */
 }
 
-#alu {
-  position: absolute;
-  bottom: 00px;
-  right: 180px;
-  border: 1px solid blue;
-  height: 345px;
-  width: 500px;
+
+#memory{
+    width: 10vw;
+}
+.memSeg{
+    width: 100%;
+    margin-top: .5rem;
+    padding-top: .5rem;
+    text-align: center;
 }
